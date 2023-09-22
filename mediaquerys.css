@@ -1,0 +1,47 @@
+/* TABLET */
+
+
+@media(max-widht: 992px) {
+    .nav {
+        gap: 10px;
+    }
+ 
+
+
+    #hero{
+    max-width: 992px;
+}
+
+    .hero-info {
+    font-size: 41px;
+    width: 90%;
+    }
+
+
+
+
+}
+
+
+
+/* CELULAR */
+
+
+@media (max-width: 576px) {
+
+   .nav{
+    width: 90%;
+   }
+
+   .hero-info p {
+    width: 70%;
+    max-width: unset;
+  }
+
+   .hero-info h1{
+    font-size: 20px;
+   }
+    
+}
+
+
